@@ -6,7 +6,7 @@ import footwear from '../../../../assets/footwear.webp'
 import fashion from '../../../../assets/fashion.png'
 import toys from '../../../../assets/toys.png'
 import clothes from '../../../../assets/clothes.png'
-import type { category, CategoryProps } from './categories'
+import type { category,CategoryProps } from '../../../../types/categories'
 
 const categories: category[] = [
     {

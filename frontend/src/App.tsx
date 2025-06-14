@@ -1,12 +1,14 @@
-import Categories from "./components/categories/Categories"
+import CategoriesNav from "./components/categories-nav/CategoriesNav"
 import Navbar from "./components/navbar/Navbar"
+import { useDevice } from "./context/DeviceContext"
 import Home from "./pages/home/Home"
 
 const App = () => {
+  const{isMobile}=useDevice()
   return (
     <div>
         <Navbar/>
-        <Categories/>
+        {!isMobile && <CategoriesNav/>}
         <main>
              <Home/>
         </main>

@@ -1,4 +1,4 @@
-const Categories = () => {
+const CategoriesNav = () => {
   return (
     <div>
       <ul className="flex gap-4 px-2 border-b border-gray-400">
@@ -42,5 +42,5 @@ const Categories = () => {
   );
 };
 
-export default Categories;
+export default CategoriesNav;
 

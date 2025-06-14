@@ -1,5 +1,16 @@
 @import "tailwindcss";
 
+
+:root {
+  --arrow-blink: arrowBlink 0.9s steps(1, end) infinite;
+}
+
+@keyframes arrowBlink {
+  0%, 100% { color: black; }
+  33%, 99% { color: gray; }
+}
+
+
 button{
   cursor: pointer;
 }
